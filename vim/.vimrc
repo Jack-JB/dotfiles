@@ -24,15 +24,17 @@ set encoding=utf-8
 
 " Auto indent
 set autoindent
+set smartindent
 
 "Number of auto indent spaces
 set shiftwidth=2
-
+set tabstop=2
 "Enable smart indent
 set smartindent
 
 "Set colour scheme
 colorscheme xcodedarkhc
+
 "####LIGHTLINE SETTINGS####
 
 "hide original mode
@@ -60,6 +62,13 @@ Plug 'preservim/nerdtree'
 
 "Vim Rainbow
 Plug 'frazrepo/vim-rainbow'
+
+"Vim Colors Xcode
+Plug 'arzg/vim-colors-xcode'
+
+"Vim-go
+Plug 'fatih/vim-go', {'do': 'GoUpdateBinaries'}
+
 call plug#end()
 
 
